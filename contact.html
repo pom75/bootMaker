@@ -1,0 +1,109 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+    <head>
+        <title> Bottier Llafia - Un Savoir faire d'exception - Contact </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta name="keywords" content=" Bottier , Llafia Bottier, Paris , Bottier Paris " />
+            <meta name="description" content="Llafia Bottier ...// A completer " />
+            <meta name="author" content="stephane.ferreira75@gmail.com" />
+            <meta name="generator" content="PHP/SQLI" />
+            <meta name="revisit-after" content="0 days"/>
+            <meta name="Language" content="fr"/>
+            <meta name="Copyright" content="Null"/>
+            <meta NAME="ROBOTS" CONTENT="INDEX"/>
+            <link rel="stylesheet" href="bot2.css" type="text/css" media="screen" charset="utf-8"/>
+            <script language="JavaScript" SRC="IE-fix.js"></script>
+            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+            <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30768422-1']);
+  _gaq.push(['_setDomainName', 'soozig.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+            <script type="text/javascript">
+            function initialiser() {
+	                var latlng = new google.maps.LatLng(48.8747677, 2.3184264);
+	                //objet contenant des propriétés avec des identificateurs prédéfinis dans Google Maps permettant
+	                //de définir des options d'affichage de notre carte
+	                var options = {
+	                    center: latlng,
+	                    zoom: 16,
+	                    mapTypeId: google.maps.MapTypeId.ROADMAP
+	                };
+	                 
+	                //constructeur de la carte qui prend en paramêtre le conteneur HTML
+	                //dans lequel la carte doit s'afficher et les options
+	                var carte = new google.maps.Map(document.getElementById("carte"), options);
+	                
+	                var marker = new google.maps.Marker({
+	                    position: new google.maps.LatLng(48.8748377, 2.3183264), 
+	                    map: carte
+	                }); 
+	                var infowindow = new google.maps.InfoWindow({
+	                    content: 'Llafia Bottier <br> 95 Boulevard Haussmann , 75008 Paris  <br>Tel : 01 43 32 21 83 - 06 16 47 04 64   Email : llafia@free.fr <br>  <img src=\"img/gmap.png\" alt=\"Google map Bottier Llafia\" height=\"360" width=\"460\"/>'	
+	                });
+	                google.maps.event.addListener(marker, 'click', function() {
+	                    infowindow.open(carte, marker);
+	                });
+	
+	            }
+            </script>
+
+    </head>
+    <body onload="initialiser()">
+        <div id="container">
+            <div id="en_tete">
+
+                <img src="img/index/logo.png" alt="Logo Bottier Llafia" height="111" width="489"/>	
+
+            </div>
+            <div id="nav_5">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+
+                    <li><a href="maison.html">La Maison Llafia</a>
+                    </li>
+                    <li><a href="mesure.html">Le Sur Mesure</a>
+                                            </li>  
+                    <li><a href="pret.html">Le pret &agrave; chausser</a>
+                        
+                    </li>
+                    <li><a href="accessoires.html">Accessoires</a>
+                                            </li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+            <div id="corp_index">
+            	<div id="text_c">
+            	<h1>Contact :</h1>
+            	<h3>Llafia Bottier</h3>
+            	<br>
+            	<p> Adresse : 95 Boulevard Haussmann , 75008 Paris</p>
+            	<p> Tel : 01 43 32 21 83 ou 06 16 47 04 64   Email : llafia@free.fr </p>
+            	<p> Nous trouver :</p>
+            	<br>
+            	<div id="carte" style="width:900; height:400"></div>
+            	
+            	</div>
+            	            	
+            </div>  
+            <div id="foot">
+                <p>95 Boulevard Haussmann , 75008 Paris  <br> 
+                        Tel : 01 43 32 21 83 ou 06 16 47 04 64</p>
+            </div>   
+        </div>
+
+
+    </body>
+
+</html>

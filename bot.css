@@ -1,0 +1,192 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+.clearFix {
+    clear: both;
+}
+
+body{
+	height:950px; 
+	background: #fdffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #fdffff 130px, #e6f8fd 94%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(130px,#fdffff), color-stop(94%,#e6f8fd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fdffff 130px,#e6f8fd 94%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fdffff 130px,#e6f8fd 94%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fdffff 130px,#e6f8fd 94%); /* IE10+ */
+	background: linear-gradient(to bottom, #fdffff 130px,#e6f8fd 94%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdffff',endColorstr='#e6f8fd',GradientType=0 ); /* IE6-9 */
+	width:auto; 
+	
+}
+
+
+#container{
+    width: 960px;
+    margin:auto;
+}
+
+#en_tete{
+	background-repeat:no-repeat;
+}
+
+/* Navigation First Level */
+
+#nav_5{
+	z-index: 9;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size:15px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+#nav_5 ul{
+	z-index: 9;
+    background:#222;
+    height:35px;
+    list-style:none;
+    border: 3px solid #222;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#nav_5 li{
+z-index: 9;
+left: 0;
+    float:left;
+    padding:0px;
+}
+
+#nav_5 li a{
+z-index: 9;
+left: 0;
+    background:#222;
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    color:#fff;
+    line-height:35px;
+    padding:0px 25px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+
+}
+
+#nav_5 li a:hover{
+z-index: 9;
+    text-decoration:none;
+    color:#000000;
+    background:#f5f5f5;
+     -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* nav_5igation Second Level */
+
+#nav_5 li ul{
+z-index: 9;
+    position:absolute;
+    background:#222;
+    display:none;
+    height:auto;
+    width:210px;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    margin-left:-3px;
+}
+
+#nav_5 li:hover ul{
+z-index: 9;
+
+    display:block;
+}
+
+#nav_5 li li:hover {
+z-index: 9;
+
+    font-weight: 800;
+}
+
+#nav_5 li li {
+z-index: 9;
+
+    display:block;
+    float:none;
+    width:210px;
+}
+
+#nav_5 li li.divider1 {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #333, #ccc, #333); 
+    background-image:    -moz-linear-gradient(left, #333, #ccc, #333); 
+    background-image:     -ms-linear-gradient(left, #333, #ccc, #333);
+    background-image:      -o-linear-gradient(left, #333, #ccc, #333);
+}
+
+#nav_5 li li.divider2 {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #ccc, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #ccc, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #ccc, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #ccc, #ccc);
+}
+
+#nav_5 li ul a{
+z-index: 9;
+
+    text-align:left;
+    display:block;
+    height:35px;
+    padding:0px 10px 0px 25px;
+}
+
+#corp_index{
+	width: 960px;
+	height: 590px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+	
+}
+
+#foot{
+	padding: 5px;
+	color:#fff;
+	background:#222;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size:15px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+     -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+	
+}
+
+
+

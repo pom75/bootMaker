@@ -1,0 +1,23 @@
+#slider{
+	width:560px;
+	position:relative;
+	top:100px;
+	margin:0 auto;
+}
+ 
+#slider-window{
+	position:relative;
+	width:500px;
+	height:333px;
+	overflow:hidden;
+	margin:0 auto;
+}
+ 
+#prevSlide,#nextSlide{
+	width:30px;height:50px;
+	position:absolute;
+	top:150px;
+	cursor:pointer;
+}
+#prevSlide{left:0;}
+#nextSlide{right:0;}
